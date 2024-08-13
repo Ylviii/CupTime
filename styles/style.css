@@ -206,15 +206,19 @@ img {
 .footer__info {
 }
 .footer__copyright {
+    margin: 0;
+    margin-bottom: 17px;
 }
 .footer__description {
+    margin: 0;
+    margin-bottom: 3px;
 }
 .footer__contacts {
     display: flex;
     flex-direction: column;
 }
 .footer__email {
-    margin-bottom: 19px;
+    margin-bottom: 16px;
 }
 .footer__social {
     display: flex;
