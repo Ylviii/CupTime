@@ -71,8 +71,11 @@ img {
     font-size: 0;
 }
 
-.header__nav {
+
+.header__menu-link:hover {
+    border-bottom: 2px solid #fff;
 }
+
 .header__cart-link {
     color: #64099b;
     width: 28px;
@@ -115,6 +118,11 @@ img {
     border-radius: 4px;
     padding: 16px 24px;
     color: #fff;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.promo__link:hover {
+    background-color: rgba(255, 255, 255, .3);
 }
 .products {
     padding: 100px 0;
@@ -201,7 +209,8 @@ img {
 }
 .footer__menu-item {
 }
-.footer__menu-link {
+.footer__menu-link:hover {
+    border-bottom: 2px solid #fff;
 }
 .footer__info {
 }
